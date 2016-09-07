@@ -1,7 +1,7 @@
 import random
 import turtle
 
-class Maze():
+class maze():
     def __init__(self):
         pass
         # self.s = turtle.Screen()

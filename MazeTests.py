@@ -1,10 +1,10 @@
-from Maze import *
+from maze import *
 import random
 import turtle
 import unittest
 
 
-class testMaze(unittest.TestCase):
+class testmaze(unittest.TestCase):
     """
     This class inherits from a class called Testase which is
     defined in the unittest module.
@@ -25,7 +25,7 @@ class testMaze(unittest.TestCase):
         """
         self.m=Maze()
 
-    def testMazeExists(self):
+    def testmazeExists(self):
         """
         This will check to see if we have a maze class but as soon
         as setUp is run, we will see a failure so we really don't need

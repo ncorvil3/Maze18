@@ -3,5 +3,4 @@ import turtle
 
 class maze():
     def __init__(self):
-        pass
-        # self.s = turtle.Screen()
+        self.s = turtle.Screen()
